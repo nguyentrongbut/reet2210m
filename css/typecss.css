@@ -1,0 +1,45 @@
+h1{
+    /* màu */
+    /*color: rgb(74, 198, 192);*/
+    color: #c70000;
+}
+p{
+    color: #008B8BFF;
+    /*cỡ chữ độ cao của chữ*/
+    font-size: 26px;
+    /*phông chu */
+    font-family: "Times New Roman";
+    /*độ đậm nhạt của chữ*/
+    font-weight: 100;
+/*    100 thin
+      300 light
+      400 normal
+      500 medium
+      600 semibold
+      700 bold
+      800 extrabold
+      900 black      */
+
+    /*căn đều 2 bên*/
+    text-align: justify;
+    /*bình thường*/
+    text-decoration: none;
+    /*text-decoration: overline;* gạch đầu/
+    /*text-decoration: underline;* gạch chân/
+    /*text-decoration: line-through;* gạch giữa/
+    /*text-transform: lowercase;*in hoa thành in thường*/
+    /*text-transform: capitalize;  * in hoa tất cả chữ cái chữ đầu/*/
+
+    /*in nghiêng*/
+    font-style: italic;
+    /*độ cao của dòng*/
+    line-height: 1.5;
+    /*màu nền phía sau*/
+    background-color: #e6ecec;
+    /*độ rộng của chữ*/
+    width: 500px;
+    /*dồn hết sang 1 bên*/
+    float: right;
+    /*chia khoảng cách*/
+    margin: 15px;
+}
