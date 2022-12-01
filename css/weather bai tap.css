@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("weather.jpg");
+    font-size: 15px;
+}
+.container {
+    width: 1400px;
+    height: 800px;
+    margin: 0 auto;
+}
+.container-1 {
+    display: flex;
+}
+.c1 {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    background-color: #426c82;
+    color: #FFFFFF;
+    margin: 20px;
+}
+.text {
+    padding: 30px 0px 0px 30px;
+}
+.img {
+    padding: 40px 10px 0px 0px;
+}
+h2 {
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: 900;
+}
+h1 {
+    padding-bottom: 20px;
+}
