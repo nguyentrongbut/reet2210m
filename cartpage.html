@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="libarry/bootstrap-v5.2/css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/cartpage.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Engagement&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+</head>
+<body>
+<header></header>
+<main>
+    <section class="breadcrumb-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                        <ul class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item" aria-current="page">Cart Page</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> <!--container-->
+    </section> <!--breadcrumb-secgtion-->
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="my-cart">
+                        <h2 class="mb-5 fw-bold">My Cart</h2>
+                    </div>
+                        <div>
+                    <form action="#" class="cart-table">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Remove</th>
+                                    <th>Images</th>
+                                    <th>Product</th>
+                                    <th>Unit Price</th>
+                                    <th>Quantity</th>
+                                    <th>Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="remove">
+                                        <a href="#"><i class="bi bi-x"></i></a>
+                                    </td>
+                                    <td>
+                                        <a href="#"><img src="https://htmldemo.net/mixy/mixy/assets/images/products/cart/cart-1.jpg" alt=""/></a>
+                                    </td>
+                                    <td class="product">
+                                        <a href="#">Compete Track Tote</a>
+                                    </td>
+                                    <td>
+                                        <span>$70.00</span>
+                                    </td>
+                                    <td>
+                                        <div class="quantity">
+                                            <div class="cart-num">
+                                                <div class="dec">-</div>
+                                                <div class="num">1</div>
+                                                <div class="inc">+</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span>$70.00</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="remove">
+                                        <a href="#"><i class="bi bi-x"></i></a>
+                                    </td>
+                                    <td>
+                                        <a href="#"><img src="https://htmldemo.net/mixy/mixy/assets/images/products/cart/cart-2.jpg" alt=""/></a>
+                                    </td>
+                                    <td class="product">
+                                        <a href="#">Vestibulum suscipit</a>
+                                    </td>
+                                    <td>
+                                        <span>$60.50</span>
+                                    </td>
+                                    <td>
+                                        <div class="quantity">
+                                            <div class="cart-num">
+                                                <div class="dec">-</div>
+                                                <div class="num">1</div>
+                                                <div class="inc">+</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span>$60.50</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="remove">
+                                        <a href="#"><i class="bi bi-x"></i></a>
+                                    </td>
+                                    <td>
+                                        <a href="#"><img src="https://htmldemo.net/mixy/mixy/assets/images/products/cart/cart-3.jpg" alt=""/></a>
+                                    </td>
+                                    <td class="product">
+                                        <a href="#">suscip dictum magna</a>
+                                    </td>
+                                    <td>
+                                        <span>$40.50</span>
+                                    </td>
+                                    <td>
+                                        <div class="quantity">
+                                            <div class="cart-num">
+                                                <div class="dec">-</div>
+                                                <div class="num">1</div>
+                                                <div class="inc">+</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span>$40.50</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </form>
+                        </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="coupon-all mt-4">
+                                <div class="button">
+                                    <a href="#"><button type="button-update">Update Cart</button></a>
+                                    <a href="#"><button type="button" class="ms-2">Continue Shopping</button></a>
+                                </div>
+                                <div class="coupon mt-4">
+                                    <h3 class="fw-bold mb-2">Coupon</h3>
+                                    <p class="text">Enter your coupon code if you have one.</p>
+                                    <input class="input-coupon-code" name="coupon-code" placeholder="Coupon code" type="text">
+                                    <button class="ms-2" type="button-input">Apply coupon</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 ml-auto">
+                            <div class="cart-totals mt-4">
+                                <h2 class="fw-bold mb-3">Cart totals</h2>
+                                <ul>
+                                    <li class="subtotal">Subtotal
+                                        <span>$170.00</span>
+                                    </li>
+                                    <li class="Total">Total
+                                        <span>$170.00</span>
+                                    </li>
+                                </ul>
+                                <div class="button-checkout mt-3 text-end">
+                                    <a href="#"><button type="button-checkout">Proceed to checkout</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!--container-->
+    </section> <!--content-section-->
+    <section class="section-bot">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="content-mail">
+                        <div class="mail-icon">
+                            <i class="bi bi-envelope-open"></i>
+                        </div>
+                        <div class="text-mail">
+                            <h2 class="fw-bold">Sign up to Newsletter</h2>
+                            <p>...and receive $20 coupon for first shopping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12 mt-4 mt-lg-0">
+                    <form method="get" action="#" class="input-email">
+                        <input name="email" type="email" placeholder="Your Email Address..." required/>
+                        <button type="submit">Subscribe!</button>
+                    </form>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+                    <div class="whatapp-wrap">
+                        <div class="content-whatapp">
+                            <div class="whatsapp-icon">
+                                <i class="bi bi-whatsapp"></i>
+                            </div>
+                            <div class="text-whatsapp">
+                                <p>Call Us 24/7</p>
+                                <h2 class="fw-bold">+8 88 55 4168</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>
