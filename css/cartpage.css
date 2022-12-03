@@ -1,0 +1,184 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.75;
+    color: #696969;
+    background-color: #FFFFFF;
+}
+
+/*bread crumb*/
+
+.breadcrumb-section {
+    padding: 24px 0 38px;
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+    color: #696b6e;
+}
+.breadcrumb-item a:hover {
+    color: #179957;
+}
+.breadcrumb-item {
+    color: #179957;
+}
+
+/*content*/
+
+.table {
+    text-align: center;
+    vertical-align: middle;
+}
+.content-section {
+    padding: 60px 0;
+}
+.remove a {
+    color: #252525;
+}
+.product a {
+    text-decoration: none;
+    color: #252525;
+}
+.remove a:hover, .product a:hover {
+    color: #179957;
+}
+.my-cart h2 {
+    color: #252525;
+}
+.coupon h3 {
+    color: #252525;
+}
+.cart-totals h2 {
+    color: #252525;
+}
+.cart-num {
+    display: flex;
+    justify-content: center;
+}
+
+.dec, .inc {
+    width: 44px;
+    height: 44px;
+    line-height: 42px;
+    background: #eff0f3;
+    font-size: 18px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.dec:hover, .inc:hover {
+    background: #FFFFFF;
+    color: #179957;
+    border: 1px solid #179957;
+}
+.num {
+    min-width: 45px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 16px;
+}
+.button input, .button button, .coupon button, .button-checkout a button {
+    background-color: #179957;
+    color: #FFFFFF;
+    border-radius: 35px;
+    padding: 10px 20px;
+    border: 1px solid #179957;
+}
+.button input:hover, .button button:hover, .coupon button:hover, .button-checkout a button:hover {
+    background-color: #184d47;
+    border: 1px solid #184d47;
+}
+.input-coupon-code {
+    border-radius: 25px;
+    border: 1px solid #ebebeb;
+    padding: 8px 15px;
+}
+.cart-totals ul{
+    padding: 0;
+}
+.cart-totals ul li {
+    list-style: none;
+    border: 1px solid #ebebeb;
+    color: #252525;
+    font-weight: 700;
+    padding: 10px 30px;
+}
+
+.cart-totals ul li span {
+    float: right;
+}
+
+/*section-bot*/
+.section-bot {
+    padding: 50px 0 30px;
+    background-color: #184d47;
+    color: #FFFFFF;
+}
+.content-mail, .content-whatapp {
+    display: flex;
+}
+.mail-icon {
+    font-size: 55px;
+    line-height: 1;
+    margin-right: 18px;
+}
+.text-mail h2, .text-whatsapp h2 {
+    font-size: 24px;
+}
+.whatapp-wrap {
+    margin-top: 20px;
+    padding: 15px 25px;
+    background-color: #043c36;
+    border-radius: 60px;
+}
+.whatsapp-icon {
+    margin-right: 14px;
+    font-size: 55px;
+}
+.text-whatsapp {
+    line-height: 0;
+    margin-top: 30px;
+}
+.input-email {
+    position: relative;
+}
+.input-email button {
+    background-color: #179957;
+    color: #FFFFFF;
+    border-radius: 35px;
+    padding: 10px 20px;
+    border: 1px solid #179957;
+    font-weight: 600;
+    position: absolute;
+    top: 6px;
+    right: 7px;
+}
+.input-email button:hover {
+    background-color: #184d47;
+    border: 1px solid #184d47;
+}
+.input-email input {
+    flex: 1 1 auto;
+    height: 60px;
+    border: 0;
+    padding-left: 30px;
+    padding-right: 140px;
+    border-radius: 30px;
+    font-size: 14px;
+    color: #888686;
+    width: 100%;
+    background: #fff;
+    position: relative;
+}
+/*----------*/
+/*fz:55px*/
